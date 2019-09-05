@@ -6,6 +6,6 @@ with a given integral number n, write a program to generate a dictionary that co
 
 n=int(input("enter the list:")
 d=dict()
-for i in range(1, n+1)
+for i in range(1, n+1):
 d[i]=i*i
 print(d)
